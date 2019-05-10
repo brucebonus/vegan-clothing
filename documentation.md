@@ -41,7 +41,16 @@ other and it looks like a mess. I tried to fix this by creating a javascript fun
 Fundamentally my aim was to display and promote different vegan based brands in the most simplest way. I wanted to make it so users know what elements can be clicked on. I did this by creating shadows on boxes when the cursor hovers over it. 
 I also wanted it to be mostly focused on getting the user to the original brand's website so they can browse through their products.
 
-## Github
-https://github.com/brucebonus
+## Commit
+I have used the following commands to upload my website to github.
+
+- git initial
+- git config --global user.name 'brucebonus'
+- git config --global user.email '3baldb74@solent.ac.uk'
+- git add .
+- git remote add origin https://github.com/brucebonus/Website.git
+- git remote
+- git commit -m "Added"
+- git push -u origin master
 
  
