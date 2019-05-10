@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.index_background { 
+  /* The image used */
+  background-image: url("/images/index_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.home_nav_bar ul{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    list-style-type: none;
+}
+
+.home_nav_bar li{
+    display: inline;
+}
+
+.home_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.home_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.home_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.apparel_background { 
+  /* The image used */
+  background-image: url("/images/apparel_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.apparel_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.apparel_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.apparel_nav_bar li{
+    display: inline;
+}
+
+.apparel_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.apparel_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.apparel_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rombaut_background { 
+  /* The image used */
+  background-image: url("/images/rombaut_tiedye_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rombaut_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.rombaut_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.rombaut_nav_bar li{
+    display: inline;
+}
+
+.rombaut_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.rombaut_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.rombaut_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rombaut_box{
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    align-items:center;
+}
+
+.rombaut_box:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.rombaut_box .rombaut_image{
+    width: 150px;
+    flex: 0 0 500px;
+}
+
+.rombaut_box .rombaut_image img{
+    max-width: 100%;
+}
+
+.rombaut_box .rombaut_content{
+    padding-left: 20px;
+}
+
+.rombaut_box .rombaut_content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.rombaut_box .rombaut_content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-weight: 600;
+    color: #fff;
+}
+
+.organic_blue_tshirt_background { 
+  /* The image used */
+  background-image: url("/images/organic_blue_tshirt_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.organic_blue_tshirt_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.organic_blue_tshirt_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.organic_blue_tshirt_nav_bar li{
+    display: inline;
+}
+
+.organic_blue_tshirt_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.organic_blue_tshirt_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.organic_blue_tshirt_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.organic_blue_tshirt_box{
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    align-items:center;
+}
+
+.organic_blue_tshirt_box:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.organic_blue_tshirt_box .organic_blue_tshirt_image{
+    width: 150px;
+    flex: 0 0 500px;
+}
+
+.organic_blue_tshirt_box .organic_blue_tshirt_image img{
+    max-width: 100%;
+}
+
+.organic_blue_tshirt_box .organic_blue_tshirt_content{
+    padding-left: 20px;
+}
+
+.organic_blue_tshirt_box .organic_blue_tshirt_content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.organic_blue_tshirt_box .organic_blue_tshirt_content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-weight: 600;
+    color: #fff;
+}
+
+.rugby_sweatshirt_background { 
+  /* The image used */
+  background-image: url("/images/rugby_sweatshirt_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rugby_sweatshirt_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.rugby_sweatshirt_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.rugby_sweatshirt_nav_bar li{
+    display: inline;
+}
+
+.rugby_sweatshirt_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.rugby_sweatshirt_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.rugby_sweatshirt_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rugby_sweatshirt_box{
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    align-items:center;
+}
+
+.rugby_sweatshirt_box:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.rugby_sweatshirt_box .rugby_sweatshirt_image{
+    width: 150px;
+    flex: 0 0 500px;
+}
+
+.rugby_sweatshirt_box .rugby_sweatshirt_image img{
+    max-width: 100%;
+}
+
+.rugby_sweatshirt_box .rugby_sweatshirt_content{
+    padding-left: 20px;
+}
+
+.rugby_sweatshirt_box .rugby_sweatshirt_content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.rugby_sweatshirt_box .rugby_sweatshirt_content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-weight: 600;
+    color: #fff;
+}
+
+.illusions_tote_bag_background { 
+  /* The image used */
+  background-image: url("/images/illusions_tote_bag_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.illusions_tote_bag_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.illusions_tote_bag_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.illusions_tote_bag_nav_bar li{
+    display: inline;
+}
+
+.illusions_tote_bag_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.illusions_tote_bag_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.illusions_tote_bag_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.illusions_tote_bag_box{
+    background-color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    align-items:center;
+}
+
+.illusions_tote_bag_box:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.illusions_tote_bag_box .illusions_tote_bag_image{
+    width: 150px;
+    flex: 0 0 500px;
+}
+
+.illusions_tote_bag_box .illusions_tote_bag_image img{
+    max-width: 100%;
+}
+
+.illusions_tote_bag_box .illusions_tote_bag_content{
+    padding-left: 20px;
+}
+
+.illusions_tote_bag_box .illusions_tote_bag_content h2{
+    margin: 0;
+    padding-left: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.illusions_tote_bag_box .illusions_tote_bag_content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-weight: 600;
+    color: #fff;
+}
+
+.lookbook_background { 
+  /* The image used */
+  background-image: url("/images/whoa.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lookbook_title{
+    text-align: center;
+    color: #fff;
+    font: Helvetica;
+    padding-top: 20px;
+}
+
+.lookbook_nav_bar ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.lookbook_nav_bar li{
+    display: inline;
+}
+
+.lookbook_nav_bar a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.lookbook_nav_bar ul li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.lookbook_nav_bar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lightbox {
+  
+  display: none;
+
+
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: black;
+  background: rgba(0,0,0,0.7);
+}
+
+  
+}
+.lightbox img {
+
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  
+  display: block;
+
+  
+  outline: none;
+}
+body {
+    background-image: url("http://mixhdwallpapers.com/wp-content/uploads/2014/07/13.jpg");
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
