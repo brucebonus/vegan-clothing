@@ -11,9 +11,9 @@ body, html {
 
 .index_background { 
   /* The image used */
-  background-image: url("/images/index_background.jpg");
+  background-image: url("../images/index_background.jpg");
 
-  /* Full height */
+  /* Full height */s
   height: 100%; 
 
   /* Center and scale the image nicely */
@@ -65,7 +65,7 @@ body, html {
 
 .apparel_background { 
   /* The image used */
-  background-image: url("/images/apparel_background.jpg");
+  background-image: url("../images/apparel_background.jpg");
 
   /* Full height */
   height: 100%; 
@@ -110,7 +110,7 @@ body, html {
 
 .rombaut_background { 
   /* The image used */
-  background-image: url("/images/rombaut_tiedye_background.jpg");
+  background-image: url("../images/rombaut_tiedye_background.jpg");
 
   /* Full height */
   height: 100%; 
@@ -202,7 +202,7 @@ body, html {
 
 .organic_blue_tshirt_background { 
   /* The image used */
-  background-image: url("/images/organic_blue_tshirt_background.jpg");
+  background-image: url("../images/organic_blue_tshirt_background.jpg");
 
   /* Full height */
   height: 100%; 
@@ -294,7 +294,7 @@ body, html {
 
 .rugby_sweatshirt_background { 
   /* The image used */
-  background-image: url("/images/rugby_sweatshirt_background.jpg");
+  background-image: url("../images/rugby_sweatshirt_background.jpg");
 
   /* Full height */
   height: 100%; 
@@ -386,7 +386,7 @@ body, html {
 
 .illusions_tote_bag_background { 
   /* The image used */
-  background-image: url("/images/illusions_tote_bag_background.jpg");
+  background-image: url("../images/illusions_tote_bag_background.jpg");
 
   /* Full height */
   height: 100%; 
@@ -478,7 +478,7 @@ body, html {
 
 .lookbook_background { 
   /* The image used */
-  background-image: url("/images/whoa.jpg");
+  background-image: url("../images/whoa.jpg");
 
   /* Full height */
   height: 100%; 
@@ -537,8 +537,6 @@ body, html {
   background: rgba(0,0,0,0.7);
 }
 
-  
-}
 .lightbox img {
 
   max-width: 90%;
